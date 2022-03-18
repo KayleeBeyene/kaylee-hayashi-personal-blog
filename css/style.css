@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: aqua;
+}
+/* -----------global classes--------- */
+a {
+  text-decoration: none;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* ----------navbar--------- */
+.nav {
+  background: antiquewhite;
+  padding: 0;
+  min-height: 70px;
+  overflow: hidden;
+}
+.nav .nav-menu {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .nav-items {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav .nav-items .nav-link {
+  padding: 1.6rem 1rem;
+  margin: 0;
+  font-size: 1.1rem;
+  position: relative;
+}
+.nav .nav-menu .nav-items .nav-link:hover {
+  background-color: blueviolet;
+  color: #fff;
+}
+.nav .nav-menu .nav-items .nav-link a:hover {
+  color: #fff;
+}
+.nav .nav-brand a img {
+  width: 60px;
+  margin: 0 20px;
+  padding: 0;
+}
+.nav .social {
+  padding: 1.4rem 0;
+}
+.nav .social i {
+  padding: 0 0.2rem;
+}
+.nav .social i:hover {
+  color: black;
+}
